@@ -1,0 +1,19 @@
+name: ml-tutorial
+channels:
+  - conda-forge
+dependencies:
+  - python==3.12
+  - pip
+  - jupyterlab
+  - ipywidgets
+  - numpy
+  - scipy
+  - tqdm
+  - matplotlib
+  - scikit-learn
+  - pip:
+    - --extra-index-url https://download.pytorch.org/whl/cu128
+    - torch
+    - keras
+    - spacepy
+    - cdasws # this is for the PSP data
