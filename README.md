@@ -1,5 +1,5 @@
 # ml-tutorial
-A short repository of example notebooks for introductory ML for the CHIMERAS workshop.
+A short repository of example notebooks for introductory ML for the CHIMERAS workshop. A video of the associated presentation and discussion is available [on youtube](https://www.youtube.com/watch?v=P7uidiRR_d8).
 
 ## 1) Download miniforge
 [miniforge](https://conda-forge.org/download/) is a lightweight conda platform for the ```conda::forge channel``` specifically. It can handle automatic downloading of python and its associated packages, and we will use it to set up the environment so that you can be sure you've got everything you need to run the examples. If you've got conda-forge or anaconda installed already, that works too.
